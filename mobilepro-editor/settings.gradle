@@ -1,0 +1,3 @@
+rootProject.name = "mobilepro-editor"
+
+include ":app"

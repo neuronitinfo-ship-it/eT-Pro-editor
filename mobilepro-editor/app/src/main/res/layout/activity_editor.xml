@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/editor_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Editor"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button_cut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cut Video"
+        android:layout_below="@id/editor_title"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/button_trim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trim Video"
+        android:layout_below="@id/editor_title"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="120dp" />
+
+    <Button
+        android:id="@+id/button_export"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Export Video"
+        android:layout_below="@id/editor_title"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="240dp" />
+
+    <RecyclerView
+        android:id="@+id/recycler_view_timeline"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/button_cut"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1" />
+
+</RelativeLayout>

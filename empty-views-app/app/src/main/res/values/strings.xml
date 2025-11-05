@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Empty Views App</string>
+    <string name="welcome_message">Welcome to the Empty Views App!</string>
+    <string name="video_processing">Processing video...</string>
+    <string name="ai_analysis">Analyzing with AI...</string>
+    <string name="error_occurred">An error occurred. Please try again.</string>
+</resources>

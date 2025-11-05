@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.EmptyViewsApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.EmptyViewsApp">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

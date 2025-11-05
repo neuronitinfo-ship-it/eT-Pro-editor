@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MobilePro Editor</string>
+    <string name="welcome_message">Welcome to MobilePro Editor!</string>
+    <string name="edit_video">Edit Video</string>
+    <string name="export_video">Export Video</string>
+    <string name="gallery">Gallery</string>
+    <string name="loading">Loading...</string>
+    <string name="error_occurred">An error occurred. Please try again.</string>
+    <string name="no_projects_found">No projects found.</string>
+    <string name="ai_analysis">AI Analysis</string>
+    <string name="cut_video">Cut Video</string>
+    <string name="trim_video">Trim Video</string>
+    <string name="analyze_video">Analyze Video</string>
+    <string name="settings">Settings</string>
+</resources>
